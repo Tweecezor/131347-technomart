@@ -1,7 +1,7 @@
 # Личный проект «Техномарт»
 
 * Студент: [Nikita Eremeev](https://up.htmlacademy.ru/htmlcss/23/user/131347).
-* Наставник: [Владислав Кривокора].(https://htmlacademy.ru/profile/krivokora)
+* Наставник: [Владислав Кривокора](https://htmlacademy.ru/profile/krivokora).
 
 ---
 
