@@ -21,8 +21,8 @@
 		</div>		
 		<nav class="user-navigation">
 			<ul class="user-list">
-			<li><a href="#enter">Войти</a></li>
-			<li><a href="#registration"> Регистрация</a></li>
+			<li><a href="login.html">Войти</a></li>
+			<li><a href="registration.html"> Регистрация</a></li>
 			</ul>
 		</nav>
 		<nav class="main-navigation">
@@ -57,6 +57,8 @@
 				<a href="#">доставка</a>
 			</div>
 			<!-- тут будет слайдер -->
+			<a href="catalog.html">Открыть каталог</a>
+			<!-- тут будет слайдер  -->
 		</section>
 
 		<section class="popular stuff">
@@ -192,26 +194,62 @@
 		</section>
 		
 		<div class="information">
-		<section class="about">
-			<h2>Компания Техномарт</h2>
-			<p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и
-			 строительства не оставит равнодушным любителей сэкономить на гастарбайтерах</p>
+			<section class="about">
+				<h2>Компания Техномарт</h2>
+				<p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и
+			 	строительства не оставит равнодушным любителей сэкономить на гастарбайтерах</p>
 			
-			<p>Мы можем доставить ваш товар в самые отдаленные точки России!
-			 Техномарт работает со многими транспортными компаниями</p>
-			<ul class="partners-list">
-				<li>Деловые линии</li>
-				<li>Автотрейдинг</li>
-				<li>ЖелДорЭкспидиция</li>
-			</ul>
-			<a href="" class="button more-about">подробнее о компаниии</a>
-		</section>
+				<p>Мы можем доставить ваш товар в самые отдаленные точки России!
+			 	Техномарт работает со многими транспортными компаниями</p>
+				<ul class="partners-list">
+					<li>Деловые линии</li>
+					<li>Автотрейдинг</li>
+					<li>ЖелДорЭкспидиция</li>
+				</ul>
+				<a href="#" class="more-about">подробнее о компаниии</a>
+			</section>
+
 			<section class="contacts">
 				<h2>Контакты</h2>
 				<p>Вы можете забрать товар сами, заехав в наш офис:</p>
 				<!-- здесь будет карта -->
-				<a href="" class="button write-us"> заблудились? напишите нам!</a>
+				<button class="write-us" type="button">заблудились? напишите нам!</button>
 			</section>
+
+			<section class="modal modal-write-us">
+				<h2 class="visually-hidden">Напишите нам</h2>
+				<form class="write-us-form" action="https://echo.htmlacademy.ru" method="post">
+					<p>
+						<label for="your-name">Ваше имя:</label>
+					</p>
+					<p>
+						<input type="text" name="name" id="your-name" value="" placeholder="Имя Фамилия">
+					</p>
+					<p>
+						<label for="your-email">Ваш e-mail:</label>
+					</p>
+					<p>
+						<input type="text" name="email" id="your-email" value="" placeholder="email@example.com">
+					</p>
+					<p >
+						<label for="">Текст письма:</label>
+					</p>
+					<p>
+						<textarea rows="10" cols="50" name="letter" id="your-letter" value="" placeholder="В свободной форме"></textarea>
+					</p>
+					<button type="submit">Отправить</button>
+				</form>
+				<button class="modal-close" type="button">Закрыть</button>
+			</section>
+
+			<section class="modal modal-map">
+        		<h2 class="visually-hidden">Как до нас добраться</h2>
+        		<p>
+          		<img src="img/index/map.jpg" width="780" height="560" alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
+        		</p>
+       			<button class="modal-close" type="button">Закрыть</button>
+      		</section>
+
 		</div>
 	</main>	
 
