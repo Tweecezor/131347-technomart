@@ -1,0 +1,90 @@
+body{
+	margin:0;
+	padding: 0;
+	font-family: "Cuprum",Arial,sans-serif; 
+	background:#ffffff;
+}
+a{
+	text-decoration: none;
+}
+.order-navigation{
+	background-color:#293449;
+	color:#ffffff;
+	font-size:17px;
+	line-height:18px; 
+}
+.order-list,
+.nav-list,
+.user-list,
+.stuff-list,
+.manufacturers-list,
+.partners-list,
+.foot-nav-list,
+.social-list{
+	list-style: none;
+}
+.order-list a,
+.nav-list a,
+.stuff-list a,
+.manufacturers-list a,
+.partners-list a,
+.foot-nav-list a,
+.social-list a{
+	color:#ffffff;
+}
+.header-dark{
+	background-color:#32425c;
+}
+.header-gray{
+	background-color:#f3f7f9; 
+}
+.user-navigation{
+	font-size:21px;
+	line-height:21px;
+	background-color:#ffffff;
+}
+.user-list a{
+		color:#444444;
+}
+.order-list a:hover,
+.order-list a:focus{
+	background:#212a3a;
+}
+.user-list a:hover,
+.user-list a:focus{
+	color:#ee3643;
+}
+.nav-list a:hover,
+.nav-list a:focus{
+	background-color:#293449;
+}
+.logo{
+	background-color:#ee3643;
+}
+.information{
+	font-size:13px;
+	line-height: 24px;
+}
+.partners-list{
+	font-size:18px;
+	line-height: 20px;
+	font-weight: 350px;
+}
+.button{
+	background-color:#ee3643;
+	color:#ffffff;
+}
+button{
+	border:0px;
+}
+.main-footer{
+	background-color:#32425c;
+	color:#ffffff;
+}
+.footer-dark{
+	background-color:#293449;
+}
+.yellow a,
+.yellow{
+	color:#f1d092;
+}
