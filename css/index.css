@@ -1,6 +1,6 @@
 body{
 	margin:0;
-	padding: 0;
+	padding:0;
 	font-family: "Cuprum",Arial,sans-serif; 
 	background:#ffffff;
 }
@@ -19,7 +19,8 @@ a{
 .stuff-list,
 .manufacturers-list,
 .partners-list,
-.foot-nav-list,
+.foot-nav-list1,
+.foot-nav-list2,
 .social-list{
 	list-style: none;
 }
@@ -28,7 +29,8 @@ a{
 .stuff-list a,
 .manufacturers-list a,
 .partners-list a,
-.foot-nav-list a,
+.foot-nav-list1 a,
+.foot-nav-list2 a,
 .social-list a{
 	color:#ffffff;
 }
@@ -60,15 +62,18 @@ a{
 }
 .logo{
 	background-color:#ee3643;
+	color:#ffffff;
+	font-size:24px;
+	line-height:24px;
 }
 .information{
 	font-size:13px;
-	line-height: 24px;
+	line-height:24px;
 }
 .partners-list{
 	font-size:18px;
-	line-height: 20px;
-	font-weight: 350px;
+	line-height:20px;
+	font-weight:350px;
 }
 .button{
 	background-color:#ee3643;
@@ -84,7 +89,62 @@ button{
 .footer-dark{
 	background-color:#293449;
 }
-.yellow a,
-.yellow{
+.link{
 	color:#f1d092;
+}
+.foot-nav-list2 a{
+	color:#f1d092;
+}
+.foot-nav-list1 a:hover,
+.foot-nav-list1 a:focus,
+.foot-nav-list2 a:hover,
+.foot-nav-list2 a:focus{
+text-decoration: underline;
+}
+.link a:hover,
+.link a:focus{
+text-decoration: underline;
+}
+.underline a{
+	text-decoration: underline;
+	font-size:16px;
+	line-height:18px;
+}
+.underline a,
+address{
+	color:#32425c;
+}
+.personal{
+	font-size:21px;
+	line-height:21px;
+}
+address{
+	font-size:14px;
+	line-height:24px;
+}
+.phone-number{
+	font-size:21px;
+	line-height:21px;
+	color:#e9292a;
+}
+.footer-contacts .phone-number{
+	font-size:18px;
+	line-height:24px;
+	color:#ffffff;
+}
+.green{
+	background-color:#63a63e;
+}
+.red{
+	background-color:#ee3643;
+}
+.grey{
+	background-color:#f3f7f9; 
+}
+.previous-page li{
+	font-size:13px;
+	line-height:18px;
+	text-transform: uppercase;
+	text-decoration: none;
+	list-style: none;
 }
