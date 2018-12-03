@@ -46,25 +46,50 @@ a{
 	background-color:#ffffff;
 }
 .user-list a{
-		color:#444444;
+		color:#000000;
 }
 .order-list a:hover,
 .order-list a:focus{
 	background:#212a3a;
 }
-.user-list a:hover,
-.user-list a:focus{
-	color:#ee3643;
-}
 .nav-list a:hover,
 .nav-list a:focus{
 	background-color:#293449;
 }
+.order-list a:active,
+.nav-list a:active{
+background-color:#1d2739;
+opacity:0.6;
+}
+.order-list .green a:active{
+	background-color:#518534;
+	opacity:0.5;
+}
+.order-list .green a:hover,
+.order-list .green a:focus{
+background-color:#5fbb2d;
+}
+.user-list a:hover,
+.user-list a:focus{
+	color:#ee3643;
+}
+.user-list a:active{
+	color:#444444;
+	opacity:0.3;
+}
+
 .logo{
 	background-color:#ee3643;
 	color:#ffffff;
 	font-size:24px;
 	line-height:24px;
+}
+.logo:hover,
+.logo:focus{
+	background-color:#ca2c37;
+}
+.logo:active{
+	background-color:#ba2732;
 }
 .information{
 	font-size:13px;
@@ -101,6 +126,12 @@ button{
 .foot-nav-list2 a:focus{
 text-decoration: underline;
 }
+.foot-nav-list1 a:active,
+.foot-nav-list2 a:active{
+text-decoration: underline;
+opacity:0.5;
+}
+
 .link a:hover,
 .link a:focus{
 text-decoration: underline;
@@ -114,9 +145,14 @@ text-decoration: underline;
 address{
 	color:#32425c;
 }
-.personal{
+.user-list .personal a{
 	font-size:21px;
 	line-height:21px;
+	color:#000000;
+}
+.user-list .personal:hover,
+.user-list .personal:focus{
+color:#000000;
 }
 address{
 	font-size:14px;
@@ -147,4 +183,15 @@ address{
 	text-transform: uppercase;
 	text-decoration: none;
 	list-style: none;
+}
+.about h2{
+	text-transform: uppercase;
+}
+.link:focus,
+.link:hover{
+	text-decoration: underline;
+}
+.link:active{
+	text-decoration: none;
+	color:#ee3643;
 }
