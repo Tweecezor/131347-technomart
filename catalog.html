@@ -37,7 +37,7 @@
 					<ul class="nav-list">
 						<li><a href="index.html">Главная</a></li>
 						<li><a href="#">Компания</a></li>
-						<li><a href="catalog.html">Каталог</a></li>
+						<li><a href="">Каталог</a></li>
 						<li><a href="#">Новости</a></li>
 						<li><a href="#">Спецпредложения</a></li>
 						<li><a href="#">Доставка</a></li>
@@ -63,8 +63,8 @@
 			<h3 class="price">Цена:</h3>
 			<!-- тут будет ползунок range -->
 			<form action="https://echo.htmlacademy.ru" method="post">
-				<h3>Производители</h3>
-				<ul>
+				<ul class="filters-list">
+					<h3>Производители</h3>
 					<li>
 						<label>
 							<input type="checkbox" name="Brand" value="bosch" checked>Bosch
@@ -90,7 +90,7 @@
 							<input type="checkbox" name="Brand" value="hitachi">HITACHI
 						</label>
 					</li>
-					<h3>Производители</h3>
+					<h3>Питание</h3>
 					<li>
 						<label>
 							<input type="radio" name="manufacturer" value="battery">Аккумуляторные
@@ -102,7 +102,7 @@
 						</label>
 					</li>
 				</ul>
-					<button type="submit" value="">Показать</button>
+					<button type="submit" class="show-button" value="">Показать</button>
 				</form>
 		</section>
 
@@ -283,10 +283,10 @@
 		</section>
 
 		<ul class="page-list">
-			<li class="page-item"><a href="#1">1</a></li>
-			<li class="page-item"><a href="#2">2</a></li>
-			<li class="page-item"><a href="#3">3</a></li>
-			<li class="page-item"><a href="#next">Следующая</a></li>
+			<li class="page-item show-button"><a href="#1">1</a></li>
+			<li class="page-item show-button"><a href="#2">2</a></li>
+			<li class="page-item show-button"><a href="#3">3</a></li>
+			<li class="page-item show-button"><a href="#">Следующая</a></li>
 		</ul>
 		<section class="about grey"> 
 			<h2>пара слов о перфораторах</h2>
@@ -301,14 +301,14 @@
 	<footer class="main-footer">
 		<nav class="foot-navigation">
 			<a href="index.html" class="logo">Техномарт</a>
-			<ul class="foot-nav-list1">
+			<ul class="foot-nav-list-first">
 				<li><a href="">Компания</a></li>
 				<li><a href="">Новости</a></li>
 				<li><a href="">Каталог</a></li>
 				<li><a href="">Доставка</a></li>
 				<li><a href="">Контакты</a></li>
 			</ul>
-			<ul class="foot-nav-list2">
+			<ul class="foot-nav-list-second">
 				<li><a href="">Материалы</a></li>
 				<li><a href="">Техника</a></li>
 				<li><a href="">Инструмент</a></li>
