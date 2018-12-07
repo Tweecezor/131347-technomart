@@ -40,7 +40,7 @@ a{
 	color:#000000;
 }
 .header-dark{
-	background-color:#32425c;
+/*	background-color:#32425c;*/
 }
 .header-gray{
 	background-color:#f3f7f9; 
@@ -84,10 +84,14 @@ background-color:#5fbb2d;
 }
 
 .logo{
+	width:220px;
+	height:42px;
 	background-color:#ee3643;
 	color:#ffffff;
 	font-size:24px;
 	line-height:24px;
+	text-align:center;
+	text-transform: uppercase;
 }
 .logo:hover,
 .logo:focus{
@@ -218,3 +222,127 @@ address{
 	font-weight: 700px;
 	color:#000000;
 }
+.main-header h1{
+	font-family: "Cuprum",Arial,sans-serif; 
+	font-size: 16px;
+	line-height: 23px;
+	font-style:italic;
+	color: #ee3643;
+	font-weight: 350px;
+}
+.container{
+	background-color:#32425c;
+	box-shadow:0px 4px 0px #293449;
+}
+ /*Сетка*/
+.main-header{
+	margin-bottom: 60px;
+	background: red;
+}
+
+.order-navigation{
+	/*min-width:940px;
+	min-height:41px;*/
+	background: rgba(234,225,45,0.2);
+	display: flex;
+}
+.logo-search{
+	display: flex;
+	width: 320px;
+	background: rgba(200,225,45,0.2);
+	margin-right 160px;
+}
+.order-list{
+	display: flex;
+	margin-left: auto;
+	background: rgba(200,225,45,0.2);
+}
+.main-navigation{
+	display: flex;
+}
+.nav-list{
+	display: flex;
+	width: 940px;
+	justify-content: space-between;
+	background: rgba(200,225,45,0.2);
+
+}
+.container{
+	display:flex;
+	margin: 0 auto;
+	padding: 0 10px;
+	/*background: rgba(200,225,45,0.2);*/
+}
+.order-wrap{
+	display:flex;
+	width:462px;
+	margin-left:auto;
+	background: rgba(200,105,45,0.2);
+}
+.info{
+	display:flex;
+	justify-content: space-around;
+}
+.wrap-slogan{
+	display:flex;
+	width:302px;
+	background: rgba(200,225,45,0.2);
+}
+.wrap-contacts{
+	display:flex;
+	flex-direction: column;
+	width:302px;
+	background: rgba(200,225,45,0.2);
+}
+.user-navigation{
+	display:flex;
+	flex-direction: column;
+	width:302px;
+	background: rgba(200,225,45,0.2);
+}
+.footer-dark{
+	display:flex;
+}
+.footer-social{
+	display:flex;
+	width:242px;
+}
+.social-list{
+	display:flex;
+}
+/*.order-navigation,
+.user-navigation,
+.main-navigation{
+	margin:0px;
+	padding:0px;
+}
+.order-navigation{
+	display:flex;
+}
+.order-wrap{
+	display:flex;
+	
+}
+.logo-search{
+	display:flex;
+	width:480px;
+}
+.order-list{
+	width:470px;
+	display:flex; 
+	justify-content: space-between;
+}
+.main-navigation{
+	display:flex;
+}
+.nav-list{
+	display:flex;
+	width: 940px;
+	justify-content: space-between;
+}
+.container{
+	display:flex;
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+}*/
