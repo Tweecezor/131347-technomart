@@ -40,7 +40,7 @@ a{
 	color:#000000;
 }
 .header-dark{
-/*	background-color:#32425c;*/
+	background-color:#32425c;
 }
 .header-gray{
 	background-color:#f3f7f9; 
@@ -230,14 +230,12 @@ address{
 	color: #ee3643;
 	font-weight: 350px;
 }
-.container{
-	background-color:#32425c;
-	box-shadow:0px 4px 0px #293449;
-}
+
  /*Сетка*/
 .main-header{
 	margin-bottom: 60px;
 	background: red;
+	/*почему не работает*/
 }
 
 .order-navigation{
@@ -250,7 +248,7 @@ address{
 	display: flex;
 	width: 320px;
 	background: rgba(200,225,45,0.2);
-	margin-right 160px;
+	margin-right: 160px;
 }
 .order-list{
 	display: flex;
@@ -268,7 +266,7 @@ address{
 
 }
 .container{
-	display:flex;
+	display: flex;
 	margin: 0 auto;
 	padding: 0 10px;
 	/*background: rgba(200,225,45,0.2);*/
@@ -303,12 +301,29 @@ address{
 .footer-dark{
 	display:flex;
 }
+.copyrights{
+	margin:0px;
+	display:flex;
+	width:232px;
+	background: rgba(200,225,45,0.2);
+	margin-right:162px;
+}
 .footer-social{
+	margin:0px;
 	display:flex;
 	width:242px;
+	background: rgba(200,225,45,0.2);
+	margin-right:102px;
 }
 .social-list{
 	display:flex;
+	background: rgba(200,225,45,0.2);
+}
+.feedback-contacts{
+	margin:0px;
+	display:flex;
+	width:300px;
+	background: rgba(200,225,45,0.2);
 }
 /*.order-navigation,
 .user-navigation,
