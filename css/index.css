@@ -351,6 +351,10 @@ address{
 	margin:0;
 	margin-bottom: 12px;
 }
+.discription p, 
+.contacts p{
+	font-family:PT Sans,sans-serif;
+}
 .discription,
 .contacts{
 	font-size:13px;
@@ -1189,6 +1193,9 @@ opacity:0.3;
 	font-size:30px;
 	line-height:30px;
 }
+.service-slogan p{
+	font-family:PT Sans,sans-serif;
+}
 
 .slyder{
 	display: flex;
@@ -1210,6 +1217,9 @@ opacity:0.3;
   margin: 0;
   padding: 0;
   list-style: none;
+}
+.slider1-list p{
+	font-family: PT Sans,sans-serif;
 }
 
 .slide1-title {
@@ -1244,16 +1254,30 @@ opacity:0.3;
 .control label {
 	color:#ffffff;
 	font-size: 21px;
-	line-height: 30px;
+	/*line-height: 30px;*/
   display: inline-block;
   width: 240px;
-  height: 60px;
+  height: 62px;
   vertical-align: top;
   background-color: #32425c;
-  border-top: 1px solid #ccc;
+/*  border-top: 1px solid #ccc;*/
   cursor: pointer;
+ box-shadow: -3px 0px 8px -3px rgba(50, 50, 50, 0.75) inset;
+}
+.control label:not(:first-child){
+	border-top: 1px solid #4e637b;
+}
+.control label:hover,
+.control label:focus{
+	background-color:#293449;
 }
 
+.control-name{
+	display: block;
+	padding-left:22px;
+	padding-top:20px;
+
+}
 .visually-hidden {
   position: absolute;
 
@@ -1278,6 +1302,7 @@ opacity:0.3;
 #credit:checked ~ .slyder label[for="credit"] {
   background-color: #ffffff;
   color:#32425c;
+  border:none;
 }
 .delivery-title{
 margin-top: 37px;
@@ -1286,13 +1311,13 @@ margin-top: 37px;
 line-height: 1.5;
 }
 .garanty-title{
-
+margin-top:2px;
 }
 .garanty-text{
 	line-height: 1.5;
 }
 .credit-title{
-
+margin-top:2px;
 }
 .credit-text{
 	line-height: 1.5;
@@ -1580,13 +1605,7 @@ padding-left:25px;
 	width:100%;
 	background-color: #f2f6f8;
 }
-.discription-wrapper h2{
-	margin:0;
-	padding:0;
-	text-transform: uppercase;
-	font-size: 30px;
-	line-height: 30px;
-}
+
 .discription-wrapper{
 	display: flex;
 	width:940px;
@@ -1596,7 +1615,22 @@ padding-left:25px;
 	padding-bottom: 73px;
 	padding-top:68px;
 }
-
+.discription-wrapper h2{
+	margin:0;
+	padding:0;
+	text-transform: uppercase;
+	font-size: 30px;
+	line-height: 30px;
+}
+.discription-wrapper p{
+	font-size: 13px;
+line-height: 24px;
+width: 940px;
+/*background-color: rgba(254,123,231,0.5);*/
+font-family: PT Sans,sans-serif;
+margin: 0;
+margin-top:30px;
+}
 .title-wrapper{
 	display: flex;
 	width:940px;
@@ -2219,15 +2253,28 @@ padding-left:25px;
 	display: none;
 	position: fixed;
   top: 20%;
-  left: 20%;
+  left: 18.4%;
 
   width: 940px;
   height: 451px;
-  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
 }
 
+.modal-map .modal-close{
+	position: absolute;
+	top:23px;
+	right:20px;
+	background-image: url("../img/icon-close.png");
+  	background-repeat: no-repeat;
+  	background-position: 5% 5%;
+	border:none;
+	background-color:transparent;
+	font-size:0;
+	cursor: pointer;
+	width:25px;
+	height: 25px;
+}
 .modal-map p {
-  margin: 0;
+  /*margin: 0;*/
 }
 .modal-write-us{
 	display: none;
