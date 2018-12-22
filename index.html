@@ -4,8 +4,9 @@
     <meta charset="utf-8">
     <title>HTML Academy: Техномарт</title>
     <link href="css/normalize.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700&amp;subset=cyrillic" rel="stylesheet"> 
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
+    <!-- <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700&amp;subset=cyrillic" rel="stylesheet">  -->
+    <link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700,700i" rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
  	<link href="css/index.css" rel="stylesheet">
   </head>
 <body>
@@ -25,24 +26,28 @@
 										<a href="#" class="order-link">
 										<svg class="order-bookmark" xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16"><path  d="M14 15c0 .55-.368.741-.818.426l-5.363-3.765c-.45-.315-1.187-.315-1.637 0L.818 15.426C.368 15.741 0 15.55 0 15V1c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v14z"/>
 										</svg>
-										Закладки
+										Закладки: 0
 										</a>
 									</li>
-									<li>
-										<a href="#" class="order-link">
+									<li >
+										<a href="#" class="order-link nav-cart">
 										<svg class="order-cart" xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15"><circle  cx="4.5" cy="13.5" r="1.5"/><circle  cx="12.5" cy="13.5" r="1.5"/><path  d="M15 2H4.07l-.422-2H0v2h2.031l1.985 9H15V9H9.441L15 6.951z"/>
 										</svg>
 										Корзина: 0
 										</a>
 									</li>
-									<li><a href="#">Оформить заказ</a></li>
+									<li class="checkout"><a href="#">Оформить заказ</a></li>
 								</ul>
 						</div>
 					</div>
 					<div class="header-bottom">
 						<div class="info-wrap">
 								<div class="slogan-wrap">
-									<h1 class="slogan">Интернет-магазин<br> строительных материалов<br> и инструментов для ремонта</h1>
+									<h1 class="slogan">Интернет-магазин<br> строительных материалов<br> и инструментов для ремонта
+									<!-- Интернет-магазин
+									строительных материалов
+									и инструментов для ремонта -->
+									</h1>
 								</div>
 								<div class="header-contacts">
 									<a  href="tel:+78125550555" class="phone-number phone-top">+7 (812) 555-05-55</a>
@@ -65,12 +70,12 @@
 						<div class="nav-wrap">
 							<ul class="nav-list">
 								<li class="padding-left nav-item"><a href="index.html">Главная</a></li>
-								<li class="nav-item"><a href="#" class="padding60">Компания</a></li>
-								<li class="nav-item"><a href="catalog.html" class="padding60">Каталог</a></li>
-								<li class="nav-item"><a href="#" class="padding60">Новости</a></li>
-								<li class="nav-item"><a href="#" class="padding60">Спецпредложения</a></li>
-								<li class="nav-item"><a href="#" class="padding60">Доставка</a></li>
-								<li class="padding-right nav-item"><a href="#" >Контакты</a></li>
+								<li class="nav-item"><a href="#" class="nav-company">Компания</a></li>
+								<li class="nav-item"><a href="catalog.html" class="nav-catalog">Каталог</a></li>
+								<li class="nav-item"><a href="#" class="nav-news">Новости</a></li>
+								<li class="nav-item"><a href="#" class="nav-offers">Спецпредложения</a></li>
+								<li class="nav-item"><a href="#" class="nav-delivery">Доставка</a></li>
+								<li class="padding-right nav-item"><a href="#" class="nav-contacts">Контакты</a></li>
 							</ul>
 						</div>
 					</div>
@@ -97,7 +102,7 @@
 					<div class="technics menu-title">
 						<p>Техника</p> 
 						<div class="menu-block">
-							<a href="#" class="menu-link">для настройки</a>
+							<a href="#" class="menu-link">для стройки</a>
 						</div>
 					</div>
 				</div>
@@ -177,9 +182,9 @@
 			</section>
 
 			<section class="popular-manufacturers">
-				<div class="popular">
+				<div class="popular manufacturers-wrap">
 					<h2>Популярные производители:</h2>
-						<a href="#" class="red-button">Все популярные производители</a>
+						<a href="#" class="red-button">Все производители</a>
 				</div>
 				<div class="manufacturers-center">
 					<ul class="manufacturers-list">
@@ -266,7 +271,7 @@
 				                Гарантия
 				              </h3>
 				              <p class="garanty-text">Если купленный у нас товар поломается или заискрит, <br>
-								а также в случае пожара, спровоцированного его возгаранием,<br>  вы всегда можете быть уверены в нашей гарантии.<br> Мы обменяем сгоревший товар на новый. <br>
+								а также в случае пожара, спровоцированного его возгаранием,<br>  вы всегда можете быть уверены в нашей гарантии. Мы обменяем <br>сгоревший товар на новый. <br>
 								Дом уж восстановите как-нибудь сами.</p>
 				            </li>
 				            <li class="slider1-item slide1" id="slide3">
@@ -372,7 +377,7 @@
 			<div class="feedback-wrap">
 				<div class="copyrights">
 					<p>
-					©2010-2017 Компания "Техномарт"<br>
+					© 2010-2017 Компания «Техномарт»<br>
 					Все права защищены
 					</p>
 				</div>
@@ -399,7 +404,7 @@
 				</div>
 				<div class="feedback-contacts">
 					<p class="feedback">
-						Обратная связь
+						Обратная связь:
 						<a href="mailto:mail@htmlacademy.ru" class="link">mail@htmlacademy.ru</a>
 					</p>
 					<p class="footer-copyright">

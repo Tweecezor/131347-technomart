@@ -4,8 +4,9 @@
 	<meta charset="utf-8">
 	<title>Каталог</title>
 	<link href="css/normalize.css" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Cuprum:400,700&amp;subset=cyrillic" rel="stylesheet">
-	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700&subset=cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
+	<!-- <link href="https://fonts.googleapis.com/css?family=Cuprum:400,700&amp;subset=cyrillic" rel="stylesheet"> -->
+	<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700,700i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i&amp;subset=cyrillic" rel="stylesheet">
 	<link href="css/index.css" rel="stylesheet">
 </head>
 <body>
@@ -23,7 +24,7 @@
 										<a href="#" class="order-link">
 										<svg class="order-bookmark" xmlns="http://www.w3.org/2000/svg" width="14" height="16" viewBox="0 0 14 16"><path  d="M14 15c0 .55-.368.741-.818.426l-5.363-3.765c-.45-.315-1.187-.315-1.637 0L.818 15.426C.368 15.741 0 15.55 0 15V1c0-.55.45-1 1-1h12c.55 0 1 .45 1 1v14z"/>
 										</svg>
-										Закладки
+										Закладки: 0
 										</a>
 									</li>
 									<li>
@@ -33,7 +34,7 @@
 										Корзина: 10
 										</a>
 									</li>
-									<li><a href="#">Оформить заказ</a></li>
+									<li class="checkout"><a href="#">Оформить заказ</a></li>
 								</ul>
 						</div>
 					</div>
@@ -70,12 +71,12 @@
 						<div class="nav-wrap">
 							<ul class="nav-list">
 								<li class="padding-left nav-item"><a href="index.html">Главная</a></li>
-								<li class="nav-item"><a href="#" class="padding60">Компания</a></li>
-								<li class="nav-item"><a href="catalog.html" class="padding60">Каталог</a></li>
-								<li class="nav-item"><a href="#" class="padding60">Новости</a></li>
-								<li class="nav-item"><a href="#" class="padding60">Спецпредложения</a></li>
-								<li class="nav-item"><a href="#" class="padding60">Доставка</a></li>
-								<li class="padding-right nav-item"><a href="#" >Контакты</a></li>
+								<li class="nav-item"><a href="#" class="nav-company">Компания</a></li>
+								<li class="nav-item"><a href="catalog.html" class="nav-catalog">Каталог</a></li>
+								<li class="nav-item"><a href="#" class="nav-news">Новости</a></li>
+								<li class="nav-item"><a href="#" class="nav-offers">Спецпредложения</a></li>
+								<li class="nav-item"><a href="#" class="nav-delivery">Доставка</a></li>
+								<li class="padding-right nav-item"><a href="#" class="nav-contacts">Контакты</a></li>
 							</ul>
 						</div>
 					</div>
@@ -184,7 +185,7 @@
 				<div class="sort">
 					<h3>Сортировка:</h3>
 					<ul class="sort-list">
-						<li><a href="#" class="sort-price">по цене</a></li>
+						<li><a href="#" class="sort-price active">по цене</a></li>
 						<li><a href="#" class="sort-type">по типу</a></li>
 						<li><a href="#" class="sort-func">по функционалу</a></li>
 						<li><a href="#" class="sort-up"><span class="hidden">вверх</span>
@@ -371,7 +372,7 @@
 				<h2>Товар добавлен в корзину!</h2>
 			</div>
 			<div class="cart-bottom">
-				<a href="cart.html">Оформить заказ</a>
+				<a href="cart.html" class="ord">Оформить заказ</a>
 				<button type="button" class="continue">продолжить покупки</button>
 				<button type="button" class="modal-close">Закрыть</button>	
 			</div>
@@ -462,6 +463,8 @@
 	var popup = document.querySelector(".modal-cart");
 	var locate = document.querySelectorAll(".catalog .buy");
 	var close = popup.querySelector(".modal-close");
+	var cont = document.querySelector(".continue");
+	var ord = document.querySelector(".ord");
 	 for (var i = 0; i < locate.length; i++){
 		locate[i].addEventListener("click",function(evt){
 			evt.preventDefault();
@@ -469,6 +472,14 @@
 		});
 	  }
 	close.addEventListener("click",function(evt){
+		evt.preventDefault();
+		popup.classList.remove("modal-show");
+	});
+	cont.addEventListener("click",function(evt){
+		evt.preventDefault();
+		popup.classList.remove("modal-show");
+	});
+	ord.addEventListener("click",function(evt){
 		evt.preventDefault();
 		popup.classList.remove("modal-show");
 	});
