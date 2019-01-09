@@ -51,13 +51,13 @@
 								<div class="user-action">
 									<ul class="user-list">
 										<li class="user-item">
-											<a href="" class="user-login">
+											<a href="#" class="user-login">
 											<svg class="login" xmlns="http://www.w3.org/2000/svg" width="20" height="17" viewBox="0 0 20 17"><path  d="M14.875 8.5L6 0v6H0v5h6v6z"/><path d="M16.986 15.01h-5.027V17h5.027c2.178 0 3.004-1.81 3.029-3.026V3.028C19.99 1.811 19.164 0 16.986 0h-5.027v1.99h5.027c.839 0 .992.681 1.01 1.057v10.904c-.017.376-.171 1.059-1.01 1.059z"/>
 											</svg>
 											Войти
 											</a>
 										</li>
-										<li><a href=""> Регистрация</a></li>
+										<li><a href="#"> Регистрация</a></li>
 									</ul>
 								</div>
 						</div>
@@ -155,7 +155,7 @@
 	                    		</a>
 	                    		<a href="#" class="bookmark">В закладки</a>
                			 	</div>
-                			<a href="catalog.html" class="image"><img  src="img/bosch-bfg-900.jpg" alt="Перфоратор BOSH BFG 9000" width="127" height="112"></a>
+                			<a href="catalog.html" class="image"><img  src="img/bosch-bfg-900.jpg" alt="Перфоратор BOSH BFG 9000" width="184" height="164"></a>
                 			<div class="product">Перфоратор BOSCH BFG 9000</div>
                 			<div class="discount">32 500 Р.</div>
                 			<div class="price">25 500 Р.</div>
@@ -215,55 +215,57 @@
 						<a href="#" class="red-button">Все производители</a>
 				</div>
 				<div class="manufacturers-center">
-					<ul class="manufacturers-list">
-						<li class="manufacturers-item">
-							<a href="manufacturers-item.html" class="brand-img">
-								<img src="img/bosch.jpg" width="126" height="37" alt="bosh">
-							</a>
-						</li>
+					<div class="manufacturers-wrapper">
+						<ul class="manufacturers-list">
+							<li class="manufacturers-item">
+								<a href="manufacturers-item.html" class="brand-img">
+									<img src="img/bosch.jpg" width="126" height="37" alt="bosh">
+								</a>
+							</li>
 
-						<li class="manufacturers-item">
-							<a href="manufacturers-item.html" class="brand-img">
-								<img src="img/makita.jpg" width="123" height="40" alt="makita">
-							</a>
-						</li>
+							<li class="manufacturers-item">
+								<a href="manufacturers-item.html" class="brand-img">
+									<img src="img/makita.jpg" width="123" height="40" alt="makita">
+								</a>
+							</li>
 
-						<li class="manufacturers-item">
-							<a href="manufacturers-item.html" class="brand-img">
-								<img src="img/dewalt.jpg" width="146" height="44" alt="dewalt">
-							</a>
-						</li>
+							<li class="manufacturers-item">
+								<a href="manufacturers-item.html" class="brand-img">
+									<img src="img/dewalt.jpg" width="146" height="44" alt="dewalt">
+								</a>
+							</li>
 
-						<li class="manufacturers-item">
-							<a href="manufacturers-item.html" class="brand-img">
-								<img src="img/interskol.jpg" width="200" height="88" alt="interskol">
-							</a>
-						</li>
+							<li class="manufacturers-item">
+								<a href="manufacturers-item.html" class="brand-img">
+									<img src="img/interskol.jpg" width="200" height="88" alt="interskol">
+								</a>
+							</li>
 
-						<li class="manufacturers-item">
-							<a href="manufacturers-item.html" class="brand-img">
-								<img src="img/hitachi.jpg" width="169" height="31" alt="hitachi">
-							</a>
-						</li>
+							<li class="manufacturers-item">
+								<a href="manufacturers-item.html" class="brand-img">
+									<img src="img/hitachi.jpg" width="169" height="31" alt="hitachi">
+								</a>
+							</li>
 
-						<li class="manufacturers-item">
-							<a href="manufacturers-item.html" class="brand-img">
-								<img src="img/lg.jpg" width="121" height="73"  alt="lg">
-							</a>
-						</li>
+							<li class="manufacturers-item">
+								<a href="manufacturers-item.html" class="brand-img">
+									<img src="img/lg.jpg" width="121" height="73"  alt="lg">
+								</a>
+							</li>
 
-						<li class="manufacturers-item">
-							<a href="manufacturers-item.html" class="brand-img">
-								<img src="img/aeg.jpg" width="151" height="96"  alt="aeg">
-							</a>
-						</li>
+							<li class="manufacturers-item">
+								<a href="manufacturers-item.html" class="brand-img">
+									<img src="img/aeg.jpg" width="151" height="96"  alt="aeg">
+								</a>
+							</li>
 
-						<li class="manufacturers-item">
-							<a href="manufacturers-item.html" class="brand-img">
-								<img src="img/metabo.jpg" width="204" height="69" alt="metabo">
-							</a>
-						</li>
-					</ul>
+							<li class="manufacturers-item">
+								<a href="manufacturers-item.html" class="brand-img">
+									<img src="img/metabo.jpg" width="204" height="69" alt="metabo">
+								</a>
+							</li>
+						</ul>
+					</div>
 				</div>
 			</section>
 		</div>
@@ -290,10 +292,13 @@
 				              <h3 class="slide1-title delivery-title">
 				                Доставка
 				              </h3>
-				              <p class="delivery-text">Мы с удовольствием доставим ваш товар прямо <br>
+				              <div class="delivery-text">
+				              	<p>Мы с удовольствием доставим ваш товар прямо <br>
 								к вашему подъезду совершенно бесплатно!<br>
 								Ведь мы неплохо заработаем, <br>
-								поднимая его на ваш этаж!</p>
+								поднимая его на ваш этаж!
+							</p>
+							  </div>
 				            </li>
 				            <li class="slider1-item slide1" id="slide2">
 				              <h3 class="slide1-title garanty-title">
@@ -350,11 +355,11 @@
 					<div class="data">
 						<div class="data-name">
 							<label class="data-label" for="your-name">Ваше имя:</label>
-							<input class="input-name" type="text" name="name" id="your-name" value="" placeholder="Имя Фамилия">
+							<input class="input-name" type="text" name="name" id="your-name" placeholder="Имя Фамилия">
 						</div>
 						<div class="data-email">
 							<label class="data-label" for="your-email">Ваш e-mail:</label>
-							<input class="input-email" type="email" name="email" id="your-email" value="" placeholder="email@example.com">
+							<input class="input-email" type="email" name="email" id="your-email" placeholder="email@example.com">
 						</div>
 					</div>
 						<label for="your-letter" class="textarea">Текст письма:</label>
@@ -392,17 +397,17 @@
 				</div>
 				<div class="foot-nav">
 					<ul class="foot-nav-list-first">
-						<li><a href="">Компания</a></li>
-						<li><a href="">Новости</a></li>
-						<li><a href="">Каталог</a></li>
-						<li><a href="">Доставка</a></li>
-						<li><a href="">Контакты</a></li>
+						<li><a href="#">Компания</a></li>
+						<li><a href="#">Новости</a></li>
+						<li><a href="#">Каталог</a></li>
+						<li><a href="#">Доставка</a></li>
+						<li><a href="#">Контакты</a></li>
 					</ul>
 					<ul class="foot-nav-list-second">
-						<li><a href="">Материалы</a></li>
-						<li><a href="">Техника</a></li>
-						<li><a href="">Инструмент</a></li>
-						<li><a href="">Спецпредложения</a></li>
+						<li><a href="#">Материалы</a></li>
+						<li><a href="#">Техника</a></li>
+						<li><a href="#">Инструмент</a></li>
+						<li><a href="#">Спецпредложения</a></li>
 					</ul>
 				</div>
 			</div>

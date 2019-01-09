@@ -944,8 +944,8 @@ address{
 	padding: 0 10px;
 }
 .stuff-list{
-	display: flex;
-	width: 700px;
+	/*display: flex;*/
+	width: 940px;
     margin: 0;
 	padding: 0;
 }
@@ -953,12 +953,15 @@ address{
 	position: relative;
     display: inline-block;
     width: 218px;
-    margin-right: 20px;
+    margin-right: 16px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     line-height: 20px;
     font-weight: bold;
     text-align: center;
+}
+.stuff-item:nth-child(4n) {
+	margin-right: 0;
 }
 .stuff-item .flag{
     position: absolute;
@@ -1031,13 +1034,16 @@ address{
 	width: 940px;
 	margin: 0 auto;
 	padding: 0 10px;
-	margin-bottom: 248px;
+	/*margin-bottom: 103px;*/
+}
+.manufacturers-wrapper{
+	margin-bottom: 67px;
 }
 
 .manufacturers-list{
 	display: flex;
 	flex-wrap: wrap;
-	height: 145px;
+	/*height: 145px;*/ /*ЗАчем тут указана высота я что дурак что-ли?*/
 	margin: 0;
 	padding: 0;
 }
@@ -1229,6 +1235,9 @@ address{
 	font-size: 13px;
 	margin-top: 30px;
 	line-height: 1.85;
+	font-family: PT Sans,Arial,sans-serif;
+	width: 300px;
+	word-wrap: break-word;
 }
 .garanty-title{
 	margin-top: 4px;
@@ -1387,7 +1396,7 @@ address{
 	display: flex;
 	width: 100%;
 	background-color: #293449;
-	padding-bottom: 32px;
+	padding-bottom: 18px;
 	padding-top: 32px;
 	font-size: 16px;
 	line-height: 18px;
@@ -2267,10 +2276,13 @@ form{
 
 .modal-map {
 	position: fixed;
-  	top: 20%;
-  	left: 18.4%;
+  	/*top: 20%;
+  	left: 18.4%;*/
     width: 940px;
     height: 451px;
+    left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 }
 .modal-map p {
   position: absolute;
@@ -2307,8 +2319,9 @@ form{
 	height: 430px;
 	background-color: rgba(200,225,45,0.2);
 	position: fixed;
-	top: 120px;
-  	left: 410px;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
   	box-shadow: 0 30px 50px rgba(0, 0, 0, 0.75);
   	z-index: 1000;
 }
@@ -2434,10 +2447,12 @@ form{
 	width: 620px;
 	height: 283px;
 	background-color: rgba(255,243,34,0.9);
-	top: 120px;
-    left: 410px;
+	margin-right: -50%;
     box-shadow: 0 30px 50px rgba(0, 0, 0, 0.75);
     z-index: 1000;
+    left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
 }
 .cart-top{
 	width: 620px;
@@ -2465,7 +2480,7 @@ form{
 
 }
 .cart-bottom{
-	width: 620px;
+	width: 621px;
 	height: 112px;
 	background-color: #f1f1f1;
 	display: flex;
