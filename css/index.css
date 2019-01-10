@@ -350,6 +350,7 @@ address{
 .discription p, 
 .contacts p{
 	font-family: PT Sans,sans-serif;
+	white-space: pre-wrap;
 }
 .discription,
 .contacts{
@@ -378,11 +379,12 @@ address{
 .main-header h1{
 	font-family: "Cuprum",Arial,sans-serif; 
 	font-size: 16px;
-	line-height: 23px;
+	line-height: 11.5px;
 	font-style: italic;
 	color: #ee3643;
 	font-weight: normal;
 	margin-left: 51px;
+	padding-top: 5px;
 }
 
 
@@ -471,7 +473,9 @@ address{
 	margin: 0 auto;
 	padding: 0 10px;
 }
-
+.slogan{
+	white-space: pre-wrap;
+}
 .slogan-wrap{
 	width: 300px;
 }
@@ -570,7 +574,15 @@ address{
 	margin: 0 auto;
 	padding: 0 10px;
 	justify-content: space-between;
-	padding-bottom: 30px;
+	padding-bottom: 25px;
+}
+.info-wrap-catalog{
+	display: flex;
+	width: 940px;
+	margin: 0 auto;
+	padding: 0 10px;
+	justify-content: space-between;
+	padding-bottom: 36px;
 }
 .nav-wrap{
 	display: flex;
@@ -1083,7 +1095,7 @@ address{
 	box-shadow: 0 0 15px 1px #ccc;
 }
 
-.Service{
+.service{
 	width: 100%;
 	background-color: #f4f7f9;
 	padding-bottom: 15px;
@@ -1304,7 +1316,7 @@ address{
 	width: 300px;
 }
 .contacts img{
-	margin-top: 18px;
+	margin-top: -6px;
 	width: 300px;
 }
 .contacts img:hover{
@@ -1376,12 +1388,18 @@ address{
 .foot-nav-list-first li{
 	margin-right: 59px;
 }
+.foot-nav-list-first li:last-child{
+	margin-right: 0px;
+}
 .foot-nav-list-first li:first-child{
 	margin-left: 3px;
 }
 
 .foot-nav-list-second li{
 	margin-right: 60px;
+}
+.foot-nav-list-second li:last-child{
+	margin-right: 0px;
 }
 .foot-nav-list-first{
 	padding: 0;
@@ -1396,7 +1414,7 @@ address{
 	display: flex;
 	width: 100%;
 	background-color: #293449;
-	padding-bottom: 18px;
+	/*padding-bottom: 18px;*/
 	padding-top: 32px;
 	font-size: 16px;
 	line-height: 18px;
@@ -1414,6 +1432,7 @@ address{
 }
 .copyrights p{
 	margin-top: 5px;
+	white-space: pre-wrap;
 }
 .feedback-contacts{
 	display: flex;
@@ -2172,8 +2191,9 @@ form{
     width: 218px;
     height: 168px;
     display: flex;
-    justify-content: center;
+   /* justify-content: center;*/
     align-items: center;
+    padding-left: 39px;
 }
 
 .catalog-item .product{
