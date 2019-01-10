@@ -7,7 +7,7 @@ html{
 body{
 	margin: 0;
 	padding: 0;
-	font-family: "Cuprum",Arial,sans-serif; 
+	font-family: "Cuprum","Arial",sans-serif; 
 	background: #ffffff;
 }
 a{
@@ -349,8 +349,12 @@ address{
 }
 .discription p, 
 .contacts p{
-	font-family: PT Sans,sans-serif;
-	white-space: pre-wrap;
+	font-family: "PT Sans","Arial",sans-serif;
+	/*white-space: pre-wrap;*/
+}
+.discription span, 
+.contacts span{
+	display: block;
 }
 .discription,
 .contacts{
@@ -377,7 +381,7 @@ address{
 	color: #000000;
 }
 .main-header h1{
-	font-family: "Cuprum",Arial,sans-serif; 
+	font-family: "Cuprum","Arial",sans-serif; 
 	font-size: 16px;
 	line-height: 11.5px;
 	font-style: italic;
@@ -1009,7 +1013,7 @@ address{
     padding: 0 25px;
     margin-top: 10px;
     margin-bottom: 15px;   
-    font-family: "PT Sans", sans-serif; 
+    font-family: "PT Sans","Arial",sans-serif; 
     font-size: 18px;
 }
 .stuff-item .discount{
@@ -1018,7 +1022,7 @@ address{
     margin-bottom: 14px;
     color: #999;
     text-decoration: line-through;
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans","Arial",sans-serif;
 }
 .stuff-item .discount-hide,
 .catalog-item .discount-hide{
@@ -1034,7 +1038,7 @@ address{
     color: white;
     background: #ee3643;
     border-radius: 3px;
-     font-family: "PT Sans", sans-serif;
+     font-family: "PT Sans","Arial",sans-serif;
 }
 .stuff-item .price:after{
     content: "";
@@ -1127,7 +1131,7 @@ address{
 	padding-bottom: 30px;
 }
 .service-slogan p{
-	font-family: PT Sans,sans-serif;
+	font-family: "PT Sans","Arial",sans-serif;
 	padding: 0;
 	margin: 0;
 	font-size: 13px;
@@ -1164,7 +1168,7 @@ address{
     list-style: none;
 }
 .slider1-list p{
-	font-family: PT Sans,sans-serif;
+	font-family: "PT Sans","Arial",sans-serif;
 }
 
 .slide1-title {
@@ -1255,7 +1259,7 @@ address{
 	font-size: 13px;
 	margin-top: 30px;
 	line-height: 1.85;
-	font-family: PT Sans,Arial,sans-serif;
+	font-family: "PT Sans","Arial",sans-serif;
 	width: 300px;
 	word-wrap: break-word;
 }
@@ -1312,7 +1316,7 @@ address{
 	margin: 0px;
 	width: 540px;
 	margin-right: 100px;
-	font-family: "Cuprum",Arial,sans-serif; 
+	font-family: "Cuprum","Arial",sans-serif; 
 }
 .discription p:first-of-type{
 	margin-bottom: 11px;
@@ -1324,7 +1328,7 @@ address{
 	width: 300px;
 }
 .contacts img{
-	margin-top: -6px;
+	margin-top: 19px;
 	width: 300px;
 }
 .contacts img:hover{
@@ -1580,7 +1584,7 @@ address{
 	justify-content: flex-start;
 	flex-wrap: wrap;
 	margin-top: 5px;
-	font-family: PT Sans,Arial,sans-serif;
+	font-family: "PT Sans","Arial",sans-serif;
 }
 .previous-page li{
 	position: relative;
@@ -1659,7 +1663,7 @@ address{
 	font-size: 13px;
 	line-height: 24px;
 	width: 940px;
-	font-family: PT Sans,sans-serif;
+	font-family: "PT Sans","Arial",sans-serif;
 	margin: 0;
 	margin-top: 26px;
 }
@@ -1688,7 +1692,7 @@ address{
 	padding: 0;
 	margin: 0;
 	margin-top: 16px;
-	font-family: PT Sans, Arial, sans-serif;
+	font-family: "PT Sans","Arial", sans-serif;
 	font-size: 17px;
 }
 .range-item {
@@ -1755,7 +1759,7 @@ address{
 .price-controls input {
   	width: 60px;
   	padding: 7px 15px;
-    font-family: "PT Sans", sans-serif; 
+    font-family: "PT Sans","Arial",sans-serif; 
   	font-size: 17px;
   	text-align: center;
   	color: #283136;
@@ -1808,7 +1812,7 @@ address{
 	position: relative;
 	margin: 0;
 	margin-bottom: 13px;
-	font-family: PT Sans,Arial,sans-serif;
+	font-family: "PT Sans","Arial",sans-serif;
 }
 .filters-list h3::before{
 	content: "";
@@ -1821,7 +1825,7 @@ address{
 .filters-list li{
 	margin-bottom: 19px;
 	padding-left: 35px;
-	font-family:PT Sans,Arial,sans-serif;
+	font-family: "PT Sans","Arial",sans-serif;
 }
 .filters-item label {
   	position: relative;
@@ -1943,7 +1947,7 @@ address{
 	width: 138px;
 	color: #000000;
 	cursor: pointer;
-	font-family: PT Sans,Arial,sans-serif;
+	font-family: "PT Sans","Arial",sans-serif;
 }
 .send-button:hover,
 .send-button:focus{
@@ -1965,7 +1969,7 @@ address{
 	margin-left: 19px;
 	font-size: 13px;
 	line-height: 18px;
-	font-family: "PT Sans", sans-serif;
+	font-family: "PT Sans","Arial",sans-serif;
 	text-transform: uppercase;
 	font-weight: normal;
 }
@@ -1990,7 +1994,7 @@ form{
 	padding: 0;
 	margin: 0;
 	font-size: 13px;
-	font-family: "PT Sans", sans-serif;
+	font-family: "PT Sans","Arial",sans-serif;
 	text-transform: uppercase;
 	font-weight: normal;
 }
@@ -2128,7 +2132,7 @@ form{
     color: white;
     font-size: 14px;
     font-weight: normal;
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum","Arial",sans-serif;
     line-height: 18px;
     text-decoration: none;
     text-transform: uppercase;    
@@ -2168,7 +2172,7 @@ form{
     color: white;
     font-size: 14px;
     font-weight: normal;
-    font-family: "Cuprum", sans-serif;
+    font-family: "Cuprum","Arial",sans-serif;
     line-height: 18px;
     text-decoration: none;
     text-transform: uppercase;    
@@ -2212,7 +2216,7 @@ form{
     padding: 0 25px;
     margin-top: 10px;
     margin-bottom: 15px;   
-    font-family: "PT Sans", sans-serif; 
+    font-family: "PT Sans","Arial",sans-serif; 
     font-size: 18px;
 }
 .catalog-item .discount{	
@@ -2221,7 +2225,7 @@ form{
     margin-bottom: 11px;
     color: #999;
     text-decoration: line-through;
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans","Arial",sans-serif;
 }
 .catalog-item .price{
     position: relative;
@@ -2232,7 +2236,7 @@ form{
     color: white;
     background: #ee3643;
     border-radius: 3px;
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans","Arial",sans-serif;
 }
 .catalog-item .price:after{
     content: "";
@@ -2258,7 +2262,7 @@ form{
 }
 .page-item a{
  	display: block;
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans","Arial",sans-serif;
     font-size: 13px;
     line-height: 18px;
     padding: 9px 15px;
@@ -2270,7 +2274,7 @@ form{
 }
 .page-item .active-page{
 	display: block;
-    font-family: "PT Sans", sans-serif;
+    font-family: "PT Sans","Arial",sans-serif;
     font-size: 13px;
     line-height: 18px;
     padding: 9px 15px;
