@@ -1,5 +1,5 @@
 html{
-	box-shadow: inherit;
+	box-sizing: border-box;
 }
 *{
 	box-sizing: inherit;
@@ -395,7 +395,7 @@ address{
 
 .search{
 	/*outline: none;*/
-	width: 222px;
+	width: 270px;
 	height: 40px;
 	color: #ffffff;
 	border: none;
@@ -473,7 +473,7 @@ address{
 }
 .center{
 	display: flex;
-	width: 940px;
+	width: 960px;
 	margin: 0 auto;
 	padding: 0 10px;
 }
@@ -498,7 +498,7 @@ address{
 }
 .phone-top{
 	display: block;
-	width: 242px;
+	width: 264px;
 	line-height: 40px;
 	box-shadow: 0 0 0px 3px #ffffff;
 	text-align: center;
@@ -582,7 +582,7 @@ address{
 }
 .info-wrap{
 	display: flex;
-	width: 940px;
+	width: 960px;
 	margin: 0 auto;
 	padding: 0 10px;
 	justify-content: space-between;
@@ -590,7 +590,7 @@ address{
 }
 .info-wrap-catalog{
 	display: flex;
-	width: 940px;
+	width: 960px;
 	margin: 0 auto;
 	padding: 0 10px;
 	justify-content: space-between;
@@ -598,14 +598,14 @@ address{
 }
 .nav-wrap{
 	display: flex;
-	width: 940px;
+	width: 960px;
 	margin: 0 auto;
 	padding: 0 10px;
 }
 .nav-list {
 	margin: 0;
 	padding: 0;
-	width: 940px;
+	width: 960px;
 	display: flex;
 	flex-wrap: wrap;
 	background-color: #32425c;
@@ -644,7 +644,7 @@ address{
 	 padding-right: 32px;
 }
 .padding-right a{
-	 padding-right: 50px;
+	 padding-right: 54px;
 }
 .main-wrap{
 	width: 100%;
@@ -652,7 +652,7 @@ address{
 }
 .wrap-menu-top{
 	display: flex;
-	width: 940px;
+	width: 960px;
 	margin: 0 auto;
 	padding: 0 10px;
 	margin-bottom: 20px;
@@ -660,7 +660,7 @@ address{
 }
 .wrap-menu-bottom{
 	display: flex;
-	width: 940px;
+	width: 960px;
 	margin: 0 auto;
 	padding: 0 10px;
 	justify-content: space-between;
@@ -963,26 +963,28 @@ address{
 
 .stuff-center{
 	display: flex;
-	width: 940px;
+	width: 960px;
 	margin: 0 auto;
 	padding: 0 10px;
 }
 .stuff-list{
 	/*display: flex;*/
-	width: 940px;
+	width: 960px;
     margin: 0;
 	padding: 0;
+	font-size: 0;
 }
 .stuff-item{
 	position: relative;
     display: inline-block;
     width: 218px;
-    margin-right: 16px;
+    margin-right: 22px;
     margin-bottom: 20px;
     border: 1px solid #ccc;
     line-height: 20px;
     font-weight: bold;
     text-align: center;
+    font-size: 16px;
 }
 .stuff-item:nth-child(4n) {
 	margin-right: 0;
@@ -1031,7 +1033,7 @@ address{
 
 .stuff-item .price{
     position: relative;
-    width: 80px;
+    width: 140px;
     margin: -7px 42px;
     margin-bottom: 20px;
     padding: 10px 30px;
@@ -1055,7 +1057,7 @@ address{
 
 .manufacturers-center{
 	display: flex;
-	width: 940px;
+	width: 960px;
 	margin: 0 auto;
 	padding: 0 10px;
 	/*margin-bottom: 103px;*/
@@ -1065,21 +1067,23 @@ address{
 }
 
 .manufacturers-list{
-	display: flex;
-	flex-wrap: wrap;
+	/*display: flex;
+	flex-wrap: wrap;*/
 	/*height: 145px;*/ /*ЗАчем тут указана высота я что дурак что-ли?*/
 	margin: 0;
 	padding: 0;
 }
 .manufacturers-list li {
-	width: 218px;
+	width: 220px;
 	border: 1px solid #ccc;
 	text-align: center;
 	margin-bottom: 20px;
-	height: 141px;
+	height: 143px;
+	display: inline-block;
+	vertical-align: top;
 }
 .manufacturers-list li:not(:nth-child(4n)){
-	margin-right: 20px;
+	margin-right: 16px;
 }
 .manufacturers-item a{
 	display: flex;
@@ -1113,12 +1117,12 @@ address{
 	padding-bottom: 15px;
 }
 .service-wrapper{
-	width: 940px;
+	width: 960px;
 	margin: 0 auto;
 	padding: 0 10px;
 }
 .service-slogan{
-	margin-bottom: 74px;
+	margin-bottom: 75px;
 }
 .service-slogan h2{
 	font-size: 29px;
@@ -1205,7 +1209,7 @@ address{
 	font-size: 21px;
   	display: inline-block;
   	width: 240px;
-  	height: 60px;
+  	height: 61px;
   	vertical-align: top;
   	background-color: #32425c;
   	cursor: pointer;
@@ -1303,7 +1307,7 @@ address{
 
 .information{
 	display: flex;
-	width: 940px;
+	width: 960px;
 	margin: 0 auto;
 	padding: 0 10px;
 	background-color: #ffffff;
@@ -1361,7 +1365,7 @@ address{
 }
 .foot-center{
 	display: flex;
-	width: 940px;
+	width: 960px;
 	margin: 0 auto;
 	padding: 0 10px;
 }
@@ -1433,7 +1437,7 @@ address{
 }
 .feedback-wrap{
 	display: flex;
-	width: 940px;
+	width: 960px;
 	margin: 0 auto;
 	padding: 0 10px;
 	justify-content: space-between;
@@ -1573,7 +1577,7 @@ address{
 }
 .page-wrapper{
 	display: flex;
-	width: 940px;
+	width: 960px;
 	margin: 0 auto;
 	padding: 0 10px;
 }
@@ -1645,11 +1649,11 @@ address{
 
 .discription-wrapper{
 	display: flex;
-	width: 940px;
+	width: 960px;
 	margin: 0 auto;
 	padding: 0 10px;
 	flex-direction: column;
-	padding-bottom: 68px;
+	padding-bottom: 69px;
 	padding-top: 65px;
 }
 .discription-wrapper h2{
@@ -1662,19 +1666,19 @@ address{
 .discription-wrapper p{
 	font-size: 13px;
 	line-height: 24px;
-	width: 940px;
+	width: 960px;
 	font-family: "PT Sans","Arial",sans-serif;
 	margin: 0;
 	margin-top: 26px;
 }
 .title-wrapper{
 	display: flex;
-	width: 940px;
+	width: 960px;
 	margin: 0 auto;
 	padding: 0 10px;
 }
 .title{
-	width: 940px;
+	width: 960px;
 	background-color: #f2f6f8;
 	padding-top: 33px;
 	padding-bottom: 33px;
@@ -1682,7 +1686,7 @@ address{
 }
 .main-wrap-catalog{
 	display: flex;
-	width: 940px;
+	width: 960px;
 	margin: 0 auto;
 	padding: 0 10px;
 	justify-content: space-between;
@@ -1705,18 +1709,19 @@ address{
 }
 .range-controls {
   	position: relative;
-  	height: 38px;
   	margin-bottom: 9px;
   	padding-top: 41px;
   	padding-right: 20px;
   	padding-left: 20px;
   	background-color: #f7f3ec;
   	border-radius: 3px;
+  	padding-bottom: 39px;
 }
+
 .range-controls .scale {
   	height: 2px;
   	background: #d7dcde;
-  	margin-top: -3px;
+  	margin-top: -2px;
 }
 .range-controls .bar {
   	width: 85%;
@@ -1730,7 +1735,7 @@ address{
   	width: 4px;
   	height: 4px;
   	padding: 0;
-  	border: 8px solid #ffffff;
+  	border: 10px solid #ffffff;
   	background-color: #ababab;
   	box-shadow: 0 2px 1px 0 #cfcfcf;
   	border-radius: 50%;
@@ -1757,7 +1762,6 @@ address{
   	height: 38px;
 }
 .price-controls input {
-  	width: 60px;
   	padding: 7px 15px;
     font-family: "PT Sans","Arial",sans-serif; 
   	font-size: 17px;
@@ -1766,8 +1770,8 @@ address{
   	border: none;
   	border-radius: 5px;
   	background-color: #f7f3ec;
-   	width: 65px;
-	height: 25px;
+   	width: 95px;
+	height: 38px;
 }
 
 .max-price{
@@ -2072,7 +2076,7 @@ form{
 	position: relative;
     display: inline-block;
     width: 218px;
-    margin-right: 20px;
+    margin-right: 23px;
     margin-bottom: 19px;
     border: 1px solid #ccc;
     line-height: 20px;
@@ -2114,7 +2118,7 @@ form{
     position: absolute;
     top: 0;
     left: 0;
-    width: 218px;
+    width: 215px;
     height: 88px;
     padding: 40px 0;
     background-color: rgba(255,255,255,0.9);
@@ -2122,7 +2126,7 @@ form{
 }
 .buy{
     display: block;
-    width: 129px;
+    width: 135px;
     margin: 0 auto;
     margin-bottom: 7px;
     padding: 7px 0;
@@ -2162,7 +2166,7 @@ form{
 }
 .bookmark{
 	display: block;
-    width: 129px;
+    width: 135px;
     margin: 0 auto;
     margin-bottom: 7px;
     padding: 7px 0;
@@ -2229,7 +2233,7 @@ form{
 }
 .catalog-item .price{
     position: relative;
-    width: 80px;
+    width: 141px;
     margin: -7px 42px;
     margin-bottom: 20px;
     padding: 10px 30px;
@@ -2313,7 +2317,7 @@ form{
 	position: fixed;
   	/*top: 20%;
   	left: 18.4%;*/
-    width: 940px;
+    width: 960px;
     height: 451px;
     left: 50%;
 	top: 50%;
@@ -2384,7 +2388,7 @@ form{
 	width: 621px;
 	background-color: #f1f1f1;
 	height: 112px;
-	margin-top: 35px;
+	margin-top: 37px;
 }
 .write-us-form .data{
 	display: flex;
@@ -2420,8 +2424,8 @@ form{
     font-size:15px;
 }
 .write-us-form textarea{
-	width: 441px;
-	height: 101px;
+	width: 460px;
+	height: 114px;
 	border: 2px solid #ccc;
 	border-radius: 3px;
 	padding-left: 14px;
@@ -2465,7 +2469,7 @@ form{
 }
 .modal-write-us .modal-close{
 	position: absolute;
-	top: 15px;
+	top: 9px;
 	right: 6px;
 	background-image: url("../img/icon-close.png");
   	background-repeat: no-repeat;
