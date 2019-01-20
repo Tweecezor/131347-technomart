@@ -1094,6 +1094,49 @@ address{
 .brand-img img:active{
 	opacity: 0.3;
 }
+.interskol{
+	margin-top: -15px;
+}
+.hitachi{
+	margin-top: 6px;
+	margin-left: 5px;
+}
+.dewalt{
+	margin-top: -5px;
+}
+.makita{
+	margin-top: -5px;
+}
+.bosch{
+	margin-top: -2px;
+}
+.metabo{
+	margin-top: -5px;
+	margin-left: 3px;
+}
+.lg{
+	margin-left: -3px;
+	margin-top: 2px;
+}
+.bfg-3000{
+	margin-top: -1px;
+	margin-left: -13px;
+}
+.bfg-6000{
+	margin-left: -22px;
+}
+.bfg-9000{
+	margin-top: 6px;
+}
+.bfg-2000{
+	margin-left: -29px;
+}
+.catalog-bfg-6000{
+	margin-left: -14px;
+}
+.catalog-bfg-2000{
+	margin-left: -10px;
+}
 .manufacturers-list li:hover{
 	border: none;
 	box-shadow: 0 0 15px 5px #ccc;
@@ -1327,13 +1370,17 @@ address{
 }
 
 .contacts{
-	display: flex;
-	flex-direction: column;
+	/*display: flex;*/
+	/*flex-direction: column;*/
 	width: 300px;
+}
+.contacts p{
+	margin-top: 28px;
 }
 .contacts img{
 	margin-top: 19px;
 	width: 300px;
+	margin-bottom: 30px;
 }
 .contacts img:hover{
 	cursor: pointer;
