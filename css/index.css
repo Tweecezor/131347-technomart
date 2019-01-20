@@ -350,7 +350,6 @@ address{
 .discription p, 
 .contacts p{
 	font-family: "PT Sans","Arial",sans-serif;
-	/*white-space: pre-wrap;*/
 }
 .discription span, 
 .contacts span{
@@ -394,7 +393,6 @@ address{
 
 
 .search{
-	/*outline: none;*/
 	width: 270px;
 	height: 40px;
 	color: #ffffff;
@@ -478,7 +476,6 @@ address{
 	padding: 0 10px;
 }
 .slogan{
-	/*white-space: pre-wrap;*/
 }
 .slogan-wrap-second-line{
 	display: block;
@@ -968,7 +965,6 @@ address{
 	padding: 0 10px;
 }
 .stuff-list{
-	/*display: flex;*/
 	width: 960px;
     margin: 0;
 	padding: 0;
@@ -1060,16 +1056,12 @@ address{
 	width: 960px;
 	margin: 0 auto;
 	padding: 0 10px;
-	/*margin-bottom: 103px;*/
 }
 .manufacturers-wrapper{
 	margin-bottom: 67px;
 }
 
 .manufacturers-list{
-	/*display: flex;
-	flex-wrap: wrap;*/
-	/*height: 145px;*/ /*ЗАчем тут указана высота я что дурак что-ли?*/
 	margin: 0;
 	padding: 0;
 }
@@ -1370,8 +1362,6 @@ address{
 }
 
 .contacts{
-	/*display: flex;*/
-	/*flex-direction: column;*/
 	width: 300px;
 }
 .contacts p{
@@ -1444,7 +1434,6 @@ address{
 }
 .foot-nav-list-first li,
 .foot-nav-list-second li{
-	width: 100%;
 	font-size: 18px;
 	line-height: 24px;
 }
@@ -1477,7 +1466,6 @@ address{
 	display: flex;
 	width: 100%;
 	background-color: #293449;
-	/*padding-bottom: 18px;*/
 	padding-top: 32px;
 	font-size: 16px;
 	line-height: 18px;
@@ -1495,7 +1483,6 @@ address{
 }
 .copyrights p{
 	margin-top: 5px;
-	/*white-space: pre-wrap;*/
 }
 .copyrights-wrap{
 	display: block;
@@ -2274,7 +2261,6 @@ form{
     width: 218px;
     height: 168px;
     display: flex;
-   /* justify-content: center;*/
     align-items: center;
     padding-left: 39px;
 }
@@ -2379,8 +2365,6 @@ form{
 
 .modal-map {
 	position: fixed;
-  	/*top: 20%;
-  	left: 18.4%;*/
     width: 960px;
     height: 451px;
     left: 50%;
