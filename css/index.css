@@ -1792,7 +1792,24 @@ address{
   	left: 20px;
   	margin-top: -2px;
 }
-
+ .small-toggle-min{
+	width: 4px;
+	height: 4px;
+	background-color: #ababab;
+	position: absolute;
+	border-radius: 2px;
+	top: -1px;
+	left: -2px;
+}
+.small-toggle-max{
+	width: 4px;
+	height: 4px;
+	background-color: #ababab;
+	position: absolute;
+	border-radius: 2px;
+	left: -2px;
+	top: -1px;
+}
 .range-controls .toggle-max {
   	left: 160px;
   	margin-top: -2px;
