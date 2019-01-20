@@ -1393,6 +1393,7 @@ address{
 	text-align: center;
 	height: 40px;
 	font-size:13px;
+	cursor: pointer;
 }
 .foot-navigation{
 	display: flex;
