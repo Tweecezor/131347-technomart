@@ -1,4 +1,3 @@
-
 	var popup = document.querySelector(".modal-cart");
 	var locate = document.querySelectorAll(".catalog .buy");
 	var close = popup.querySelector(".modal-close");

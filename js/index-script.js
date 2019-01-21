@@ -1,4 +1,3 @@
-
 	var popup = document.querySelector(".modal-write-us");
 	var locate = document.querySelector(".write-us");
 	var close = popup.querySelector(".modal-close");
