@@ -703,9 +703,6 @@ input[type="search"]:hover{
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	margin-bottom: 52px;
-	-webkit-box-orient: vertical;
-	-webkit-box-direction: normal;
-	-ms-flex-direction: column;
 	min-height: 266px;
 	-ms-flex-line-pack: justify;
 	align-content: space-between;
