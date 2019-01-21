@@ -22,12 +22,3 @@
     evt.preventDefault();
     mapPopup.classList.remove("modal-show");
     });
-
-   window.addEventListener("keydown", function (evt) {
-    evt.preventDefault();
-    if (evt.keyCode === 27) {
-      if (mapPopup.classList.contains("modal-show")) {
-        mapPopup.classList.remove("modal-show");
-      }
-    }
-    });
